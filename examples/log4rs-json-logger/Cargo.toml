@@ -1,0 +1,8 @@
+[package]
+name = "log4rs-json-logger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log.workspace = true
+log4rs.workspace = true

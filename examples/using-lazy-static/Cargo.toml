@@ -1,8 +1,7 @@
 [package]
-name = "curl-in-rust"
+name = "using-lazy-static"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-clap.workspace = true
 lazy_static.workspace = true

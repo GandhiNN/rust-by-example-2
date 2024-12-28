@@ -1,0 +1,8 @@
+[2024-12-20T13:53:35:.6f INFO  log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:53:35:.6f ERROR log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:54:20.6f INFO  log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:54:20.6f ERROR log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:55:15.714129 INFO  log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:55:15.714240 ERROR log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:57:19.168913 INFO  log4rs_compile_time_config] Goes to console, file and rolling file
+[2024-12-20T13:57:19.168991 ERROR log4rs_compile_time_config] Goes to console, file and rolling file

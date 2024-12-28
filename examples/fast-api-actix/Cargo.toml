@@ -1,0 +1,14 @@
+[package]
+name = "fast-api-actix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = { workspace = true }
+actix-rt = { workspace = true }
+uuid = { workspace = true , features = ["serde", "v4"] }
+chrono = { workspace = true, features = ["serde"] }
+serde = { workspace = true, features = ["derive"] }
+actix-web = { workspace = true }
+env_logger = { workspace = true }
+serde_json = { workspace = true }
