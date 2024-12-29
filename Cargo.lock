@@ -399,6 +399,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "boxing-errors"
+version = "0.1.0"
+
+[[package]]
 name = "brotli"
 version = "6.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -611,6 +615,10 @@ dependencies = [
  "clap",
  "lazy_static",
 ]
+
+[[package]]
+name = "defining-an-error-type"
+version = "0.1.0"
 
 [[package]]
 name = "deranged"
@@ -1660,6 +1668,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e3148f5046208a5d56bcfc03053e3ca6334e51da8dfb19b6cdc8b306fae3283e"
 
 [[package]]
+name = "peterblockman-from-into-conversions"
+version = "0.1.0"
+
+[[package]]
+name = "peterblockman-tryfrom-tryinto-conversions"
+version = "0.1.0"
+
+[[package]]
 name = "pin-project-lite"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2656,6 +2672,10 @@ dependencies = [
  "js-sys",
  "wasm-bindgen",
 ]
+
+[[package]]
+name = "what-does-the-question-mark-do"
+version = "0.1.0"
 
 [[package]]
 name = "winapi"
