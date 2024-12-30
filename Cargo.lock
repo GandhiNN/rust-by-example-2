@@ -2157,6 +2157,18 @@ name = "structs-enums-and-matching-3"
 version = "0.1.0"
 
 [[package]]
+name = "structs-enums-and-matching-4"
+version = "0.1.0"
+
+[[package]]
+name = "structs-enums-and-matching-5"
+version = "0.1.0"
+
+[[package]]
+name = "structs-enums-and-matching-6"
+version = "0.1.0"
+
+[[package]]
 name = "subtle"
 version = "2.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
