@@ -820,6 +820,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "fransescoxx-lifetimes-in-rust"
+version = "0.1.0"
+
+[[package]]
 name = "from-and-into"
 version = "0.1.0"
 
@@ -2561,6 +2565,14 @@ name = "using-lazy-static"
 version = "0.1.0"
 dependencies = [
  "lazy_static",
+]
+
+[[package]]
+name = "using-tracing-instrument"
+version = "0.1.0"
+dependencies = [
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
