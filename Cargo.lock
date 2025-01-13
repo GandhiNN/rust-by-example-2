@@ -351,6 +351,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "69f7f8c3906b62b754cd5326047894316021dcfe5a194c8ea52bdd94934a3457"
 
 [[package]]
+name = "associated-items-the-problem"
+version = "0.1.0"
+
+[[package]]
+name = "associated-items-the-solution"
+version = "0.1.0"
+
+[[package]]
 name = "atomic-waker"
 version = "1.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1623,6 +1631,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "new-type-idiom"
+version = "0.1.0"
+
+[[package]]
 name = "newline-converter"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1633,6 +1645,10 @@ dependencies = [
 
 [[package]]
 name = "novalagung-traits-advanced"
+version = "0.1.0"
+
+[[package]]
+name = "novalagung-traits-associated-types"
 version = "0.1.0"
 
 [[package]]
@@ -2306,6 +2322,10 @@ name = "subtle"
 version = "2.6.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292"
+
+[[package]]
+name = "supertraits"
+version = "0.1.0"
 
 [[package]]
 name = "syn"
