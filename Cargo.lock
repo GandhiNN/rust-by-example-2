@@ -669,6 +669,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "deref-coercions"
+version = "0.1.0"
+
+[[package]]
+name = "deref-coercions-examples"
+version = "0.1.0"
+
+[[package]]
 name = "derivative"
 version = "2.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1903,6 +1911,10 @@ dependencies = [
  "libredox",
  "thiserror",
 ]
+
+[[package]]
+name = "reference-downgrade-coercions"
+version = "0.1.0"
 
 [[package]]
 name = "regex"
