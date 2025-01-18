@@ -238,6 +238,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "512761e0bb2578dd7380c6baaa0f4ce03e84f95e960231d1dec8bf4d7d6e2627"
 
 [[package]]
+name = "advanced-iterators-pattern-matching-json-parser"
+version = "0.1.0"
+
+[[package]]
 name = "ahash"
 version = "0.8.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -356,6 +360,10 @@ version = "0.1.0"
 
 [[package]]
 name = "associated-items-the-solution"
+version = "0.1.0"
+
+[[package]]
+name = "associated-types-mit-intro"
 version = "0.1.0"
 
 [[package]]
@@ -833,6 +841,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e8c02a5121d4ea3eb16a80748c74f5549a5665e4c21333c6098f283870fbdea6"
 
 [[package]]
+name = "file-io-reader-cursor"
+version = "0.1.0"
+
+[[package]]
 name = "flate2"
 version = "1.0.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -957,6 +969,10 @@ dependencies = [
  "typenum",
  "version_check",
 ]
+
+[[package]]
+name = "get-value-from-iterator-without-consuming"
+version = "0.1.0"
 
 [[package]]
 name = "getrandom"
@@ -1379,6 +1395,10 @@ name = "is_terminal_polyfill"
 version = "1.70.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7943c866cc5cd64cbc25b2e01621d07fa8eb2a1a23160ee81ce38704e97b8ecf"
+
+[[package]]
+name = "iterators-details-explained"
+version = "0.1.0"
 
 [[package]]
 name = "itoa"

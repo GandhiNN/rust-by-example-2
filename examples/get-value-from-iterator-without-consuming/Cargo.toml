@@ -1,0 +1,6 @@
+[package]
+name = "get-value-from-iterator-without-consuming"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
