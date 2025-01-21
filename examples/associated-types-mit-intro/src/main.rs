@@ -1,3 +1,6 @@
+/* Associated types are placeholder types which are supplied by
+the trait implementation */
+
 trait Number {
     fn from_i32(num: i32) -> Self;
 }
@@ -39,6 +42,26 @@ fn multiply<C: HasItems>(item: &C) -> i32 {
     item.second_func() * item.first_func()
 }
 
+#[derive(Debug)]
+struct Meters(i32);
+
+#[derive(Debug)]
+struct MetersSquared(i32);
+
+trait Multiply {
+    type Output;
+
+    fn multiply(&self, other: &Self) -> Self::Output;
+}
+
+impl Multiply for Meters {
+    type Output = MetersSquared;
+
+    fn multiply(&self, other: &Self) -> Self::Output {
+        MetersSquared(self.0 * other.0)
+    }
+}
+
 fn main() {
     let var1: f64 = Number::from_i32(42);
     let var2: f64 = <_ as Number>::from_i32(42);
@@ -53,4 +76,6 @@ fn main() {
     println!("2nd number: {}", item.second_func());
 
     println!("Multiplied value: {}", multiply(&item));
+
+    println!("{:?}", Meters(10).multiply(&Meters(20)));
 }
