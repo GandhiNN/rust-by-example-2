@@ -1,0 +1,11 @@
+[package]
+name = "using-bufread-for-faster-io"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+criterion = {workspace = true}
+
+[[bench]]
+name = "process_lines"
+harness = false
