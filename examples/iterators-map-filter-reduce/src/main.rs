@@ -1,3 +1,5 @@
+use std::collections::HashSet;
+
 fn basic_iterator() {
     let v1 = [1, 2, 3];
     let v1_iter = v1.iter();
@@ -76,6 +78,35 @@ fn use_into_iter() {
     println!("{:?}", numbers);
 }
 
+fn map_transforming_elements_to_vector() {
+    let numbers = [1, 2, 3, 4, 5];
+    // Type annotations are needed
+    // Here, we transform the 'numbers' array into a vector
+    let squares: Vec<_> = numbers.iter().map(|&x| x * x).collect();
+    println!("Map - Squares: {:?}", squares);
+}
+
+fn transform_to_hashset() {
+    let numbers = [1, 2, 1, 2, 3, 4, 5, 5, 6];
+    // Type annotations are needed
+    // Here, we transform the 'numbers' array into a hashset
+    let unique: HashSet<_> = numbers.into_iter().collect();
+    println!("Unique: {:?}", unique);
+}
+
+fn filtering_elements() {
+    let numbers = [10, 20, 30, 40, 50];
+    let even_numbers: Vec<_> = numbers.iter().filter(|&x| x % 2 == 0).collect();
+    println!("Filter - Evens: {:?}", even_numbers);
+}
+
+fn fold_aggregating_elements() {
+    let numbers = [1111, 222, 33, 10, 20, 40];
+    // acc is the accummulator
+    let sum = numbers.iter().fold(0, |acc, &x| acc + x);
+    println!("Fold - Sum: {}", sum);
+}
+
 fn main() {
     println!("basic_iterator()");
     basic_iterator();
@@ -95,5 +126,21 @@ fn main() {
 
     println!("use_into_iter()");
     use_into_iter();
+    println!();
+
+    println!("map_transforming_elements");
+    map_transforming_elements_to_vector();
+    println!();
+
+    println!("transform_array_to_hashset");
+    transform_to_hashset();
+    println!();
+
+    println!("filtering_elements");
+    filtering_elements();
+    println!();
+
+    println!("fold_aggregating_elements");
+    fold_aggregating_elements();
     println!();
 }
