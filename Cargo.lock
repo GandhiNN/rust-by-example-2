@@ -361,6 +361,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "69f7f8c3906b62b754cd5326047894316021dcfe5a194c8ea52bdd94934a3457"
 
 [[package]]
+name = "asref-vs-asderef"
+version = "0.1.0"
+
+[[package]]
 name = "associated-items-the-problem"
 version = "0.1.0"
 
@@ -758,6 +762,10 @@ dependencies = [
  "generic-array",
  "typenum",
 ]
+
+[[package]]
+name = "cs110l-custom-types-1"
+version = "0.1.0"
 
 [[package]]
 name = "curl-in-rust"
@@ -2973,6 +2981,13 @@ name = "typenum"
 version = "1.17.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "42ff0bf0c66b8238c6f3b578df37d0b7848e55df8577b3f74f92a69acceeb825"
+
+[[package]]
+name = "understanding-asref"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+]
 
 [[package]]
 name = "understanding-async-model"
