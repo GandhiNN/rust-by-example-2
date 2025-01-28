@@ -768,6 +768,10 @@ name = "cs110l-custom-types-1"
 version = "0.1.0"
 
 [[package]]
+name = "cs110l-custom-types-2"
+version = "0.1.0"
+
+[[package]]
 name = "curl-in-rust"
 version = "0.1.0"
 dependencies = [
