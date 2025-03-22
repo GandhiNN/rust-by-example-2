@@ -487,6 +487,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "cartesian-product"
+version = "0.1.0"
+
+[[package]]
 name = "cast"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -563,6 +567,14 @@ checksum = "b97f376d85a664d5837dbae44bf546e6477a679ff6610010f17276f686d867e8"
 dependencies = [
  "clap_builder",
  "clap_derive",
+]
+
+[[package]]
+name = "clap-shuttle"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "shlex",
 ]
 
 [[package]]
