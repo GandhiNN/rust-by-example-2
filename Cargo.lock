@@ -570,6 +570,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "clap-derive-01"
+version = "0.1.0"
+dependencies = [
+ "clap",
+]
+
+[[package]]
+name = "clap-derive-02"
+version = "0.1.0"
+dependencies = [
+ "clap",
+]
+
+[[package]]
 name = "clap-shuttle"
 version = "0.1.0"
 dependencies = [
